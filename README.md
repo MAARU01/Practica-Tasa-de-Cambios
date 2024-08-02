@@ -18,20 +18,20 @@ El proyecto utiliza una base de datos PostgreSQL con las siguientes especificaci
 
 Crear y Guardar la Tasa de Cambio del Euro:
   - Ruta: http://localhost:3000/api/tasaeuro/createeuro
-  - Método: POST
-  - Descripción: Consulta la tasa de cambio del euro desde el Banco de México y la guarda en la base de datos si aún no se ha registrado para la fecha actual.
+    - Método: POST
+    - Descripción: Consulta la tasa de cambio del euro desde el Banco de México y la guarda en la base de datos si aún no se ha registrado para la fecha actual.
 Mostrar la Tasa de Cambio del Euro:
   - Ruta: http://localhost:3000/api/tasaeuro/showeuro
-  - Método: GET
-  - Descripción: Muestra la tasa de cambio del euro registrada más reciente desde la base de datos.
+    - Método: GET
+    - Descripción: Muestra la tasa de cambio del euro registrada más reciente desde la base de datos.
 Crear y Guardar la Tasa de Cambio del Dólar:
   - Ruta: http://localhost:3000/api/tasaeuro/createdolar
-  - Método: POST
-  - Descripción: Consulta la tasa de cambio del dólar desde el Banco de México y la guarda en la base de datos si aún no se ha registrado para la fecha actual.
+    - Método: POST
+    - Descripción: Consulta la tasa de cambio del dólar desde el Banco de México y la guarda en la base de datos si aún no se ha registrado para la fecha actual.
 Mostrar la Tasa de Cambio del Dólar:
   - Ruta: http://localhost:3000/api/tasaeuro/showdolar
-  - Método: GET
-  - Descripción: Muestra la tasa de cambio del dólar registrada más reciente desde la base de datos.
+    - Método: GET
+    - Descripción: Muestra la tasa de cambio del dólar registrada más reciente desde la base de datos.
 
 ### Estructura del Proyecto
   - src/index.ts: Punto de entrada principal del servidor.
